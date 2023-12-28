@@ -18,18 +18,21 @@ end the program
 ## PROGRAM:
 ```
 '''
-Developed by:narra akhil
-Registered number: 23003406
+##program to find the wword count.
+##developed by:narra akhil
+## register number:23003406
 '''
-num_words=0
-with open('text.txt','r') as f1:
-    for i in f1:
-        word=i.split()
+
+num_words =0
+with open('text.txt','r') as file1:
+    for i in file1:
+        word =i.split()
         num_words += len(word)
-print("Number of words in the file = {}".format(num_words))
+print("Number of words={}".format(num_words))
+
 ```
 ### OUTPUT:
-![image](https://github.com/NARRAAKHIL/Word-count/assets/144979843/7d70563e-77fa-48b2-bda6-88c4ff7713bf)
-![image](https://github.com/NARRAAKHIL/Word-count/assets/144979843/70744189-1ca7-45f4-a820-0e7520009b1b)
+![image](https://github.com/NARRAAKHIL/Word-count/assets/144979843/a58fb5ba-8860-4728-8d88-c21612f61de9)
+
 ## RESULT:
 Thus the program is written to find the word count from a text.
